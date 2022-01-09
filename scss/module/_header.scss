@@ -1,0 +1,142 @@
+.header {
+    height: 48px;
+    width: 85.4vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2vh;
+    border-bottom: solid 1px $black;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 28vw;
+    min-width: 300px;
+    &__item {
+        @include pc {
+            @include mainFont(17px);
+        }
+        letter-spacing: 1px;
+        &:hover {
+            color: $red;
+        }
+        &--active {
+            color: $red;
+        }
+    }
+    &__split {
+        border-width: 0px 1px 0px 0px;
+        border-style: solid;
+        border-color: $black;
+        height: 14px;
+    }
+}
+.logo {
+    width: 104px;
+}
+.rightitems {
+    width: 28vw;
+    @include pc {
+        min-width: 300px;
+    }
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    .search {
+        width: 15vw;
+        border-bottom: solid $black 0.1px;
+        margin-right: 20px;
+        &__text {
+            width: 80%;
+            min-width: 50px;
+            height: 20px;
+            background: $white;
+            border: none;
+            box-shadow: none;
+            outline: 0;
+            @include mainFont(20px, 400, $black);
+            :focus {
+                border: none;
+                box-shadow: none;
+                outline: 0;
+            }
+        }
+        &__submit {
+            float: right;
+            width: 15px;
+            height: 15px;
+        }
+    }
+    &__loginbtn {
+        padding-left: 10px;
+        padding-right: 10px;
+        @include pc {
+            @include mainFont(18px, 500);
+        }
+        @include tab {
+            @include mainFont(15px, 500);
+        }
+        letter-spacing: 0.8px;
+    }
+    &__signinbtn {
+        @include pc {
+            display: inline-block;
+            border: solid $red 1px;
+            @include mainFont(20px, 600, $red);
+            letter-spacing: 0.5px;
+            &:hover {
+                background: $red;
+                color: #fff;
+            }
+        }
+        @include tab {
+            border: solid $red 1px;
+            @include mainFont(18px, 600, $red);
+        }
+        padding: 0.2em 1em;
+        border-radius: 0.2rem;
+    }
+}
+
+@include pc {
+    .secondheader {
+        display: none;
+    }
+}
+@include tab {
+    .menu--pc {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .secondheader {
+        margin-top: 10px;
+        .menu {
+            width: 85.4vw;
+            margin: 0 auto;
+            font-size: 15px;
+            justify-content: space-around;
+        }
+    }
+}
+@include sp {
+    .menu--pc {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .secondheader {
+        margin-top: 10px;
+        .menu {
+            width: 85.4vw;
+            margin: 0 auto;
+            font-size: 10px;
+            justify-content: space-around;
+        }
+    }
+}

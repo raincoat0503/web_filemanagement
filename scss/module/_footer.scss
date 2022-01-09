@@ -1,0 +1,20 @@
+.footer{
+    width: 100vw;
+    height: 40vh;
+    &__logo{
+        width: 3vw;
+    }
+    &__copyright{
+        font-size: 12px;
+    }
+}
+.menulist{
+
+}
+.medialist{
+    &__item{
+        width: 2vw;
+    }
+    &__icon{
+    }
+}

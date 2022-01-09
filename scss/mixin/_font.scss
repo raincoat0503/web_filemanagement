@@ -1,0 +1,7 @@
+@mixin mainFont($font-size, $weight: 400, $color: $black) {
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-size: $font-size;
+    font-weight: $weight;
+    font-style: normal;
+    color: $color;
+}
