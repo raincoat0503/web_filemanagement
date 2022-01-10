@@ -1,20 +1,47 @@
 .footer{
     width: 100vw;
-    height: 40vh;
+    text-align: center;
+    background: $black;
+    @include mainFont(20px, 400, $white);
     &__logo{
-        width: 3vw;
+        width: 10vw;
     }
     &__copyright{
         font-size: 12px;
     }
 }
 .menulist{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+    &__item{
 
+    }
+    &__link{
+    }
 }
 .medialist{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin: 0 auto;
     &__item{
-        width: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3vh;
+        width: 3vh;
+        border: solid $white 0.2px;
+        border-radius: 5rem;
     }
     &__icon{
+        height: 70%;
+        width: 70%;
     }
 }

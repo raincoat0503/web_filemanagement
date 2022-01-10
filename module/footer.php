@@ -1,10 +1,11 @@
 <footer class="footer">
-    <img class="footer__logo"></img>
+    <img class="footer__logo" src="../media/img/module/logo.png"></img>
     <div class="footer__menulist">
         <ul class="menulist">
-            <li class="menulist__item"><a class="menulist__link" href="#"></a></li>
-            <li class="menulist__item"><a class="menulist__link" href="#"></a></li>
-            <li class="menulist__item"><a class="menulist__link" href="#"></a></li>
+            <li class="menulist__item"><a class="menulist__link" href="#">HOME</a></li>
+            <li class="menulist__item"><a class="menulist__link" href="#">PRODUCT</a></li>
+            <li class="menulist__item"><a class="menulist__link" href="#">ABOUT</a></li>
+            <li class="menulist__item"><a class="menulist__link" href="#">CONTACT</a></li>
         </ul>
     </div>
     <div class="footer__medialist">

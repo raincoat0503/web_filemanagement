@@ -628,18 +628,74 @@ body {
 
 .footer {
   width: 100vw;
-  height: 40vh;
+  text-align: center;
+  background: #32323c;
+  font-family: mr-eaves-xl-modern, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: #FBF5F3;
 }
 
 .footer__logo {
-  width: 3vw;
+  width: 10vw;
 }
 
 .footer__copyright {
   font-size: 12px;
 }
 
+.menulist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  height: 40%;
+  margin: 0 auto;
+}
+
+.medialist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  margin: 0 auto;
+}
+
 .medialist__item {
-  width: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3vh;
+  width: 3vh;
+  border: solid #FBF5F3 0.2px;
+  border-radius: 5rem;
+}
+
+.medialist__icon {
+  height: 70%;
+  width: 70%;
 }
 /*# sourceMappingURL=style.css.map */
