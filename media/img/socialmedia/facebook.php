@@ -1,1 +1,1 @@
-<svg class="medialist__icon"><path class="medialist__path" style="fill:#FBF5F3"" d="M10,32H4V16H0V10.49H4V7.24C4,2.74,5.21,0,10.51,0h4.41V5.52H12.17c-2.07,0-2.17.77-2.17,2.2v2.76h5L14.37,16H10Z"/></svg>
+<svg class="medialist__icon" viewBox="0 0 16.55 32"><path d="M10,32H4V16H0V10.49H4V7.24C4,2.74,5.21,0,10.51,0h4.41V5.52H12.17c-2.07,0-2.17.77-2.17,2.2v2.76h5L14.37,16H10Z"/></svg>

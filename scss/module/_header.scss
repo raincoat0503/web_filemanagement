@@ -10,6 +10,7 @@
     border-bottom: solid 1px $black;
     &__logo{
         width: 104px;
+        fill: $black;
     }
 }
 .menu {
@@ -18,14 +19,15 @@
     width: 28vw;
     min-width: 300px;
     &__item {
+        transition: all 0.2s ease-in;
         @include pc {
             @include mainFont(17px);
         }
         letter-spacing: 1px;
-        &:hover {
+        &--active {
             color: $red;
         }
-        &--active {
+        &:hover {
             color: $red;
         }
     }
@@ -87,6 +89,7 @@
             border: solid $red 1px;
             @include mainFont(20px, 600, $red);
             letter-spacing: 0.5px;
+            transition: all 0.2s ease-in;
             &:hover {
                 background: $red;
                 color: #fff;

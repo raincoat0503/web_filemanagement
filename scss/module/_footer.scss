@@ -1,17 +1,22 @@
-.footer{
+.footer {
+    margin-top: 100vh; //demo
+
     width: 100vw;
     text-align: center;
     background: $black;
     @include mainFont(20px, 400, $white);
-    &__logo{
+    &__logo {
+        margin: 0 auto;
+        padding-top: 5vh;
         width: 10vw;
         fill: $white;
     }
-    &__copyright{
+    &__copyright {
         font-size: 12px;
+        padding: 40px 0 20px 0;
     }
 }
-.menulist{
+.menulist {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -19,30 +24,49 @@
     width: 40%;
     height: 40%;
     margin: 0 auto;
-    &__item{
-
+    padding-top: 5vh;
+    &__item {
+        transition: all 0.2s ease-in;
+        &:hover {
+            color: $red;
+        }
     }
-    &__link{
+    &__split {
+        border-width: 0px 1px 0px 0px;
+        border-style: solid;
+        border-color: $white;
+        height: 14px;
     }
 }
-.medialist{
+.medialist {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     width: 20%;
     margin: 0 auto;
-    &__item{
+    padding-top: 5vh;
+    &__item {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 3vh;
         width: 3vh;
-        border: solid $white 0.2px;
+        transition: 0.2s;
         border-radius: 5rem;
+        border: solid $white 0.2px;
+        &:hover{
+            border-color: $red;
+        }
+        &:hover .medialist__icon{
+            fill: $red;
+        }
     }
-    &__icon{
+    &__icon {
         height: 70%;
         width: 70%;
+        fill: $white;
+        margin: 0 auto;
+        text-align: center;
     }
 }

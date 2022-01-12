@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="./scss/style.css">
 </head>
+
 <body>
-    <?php include('./module/header.php'); ?>
-    <?php include('./module/footer.php'); ?>
+    <?php include('./php//module/header.php'); ?>
+    <?php include('./php//module/footer.php'); ?>
+
+    <?php include('./php/script.php'); ?>
 </body>
+
 </html>
