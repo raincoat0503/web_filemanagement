@@ -423,6 +423,10 @@ body {
   border-bottom: solid 1px #32323c;
 }
 
+.header__logo {
+  width: 104px;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -461,10 +465,6 @@ body {
   border-style: solid;
   border-color: #32323c;
   height: 14px;
-}
-
-.logo {
-  width: 104px;
 }
 
 .rightitems {
@@ -639,6 +639,7 @@ body {
 
 .footer__logo {
   width: 10vw;
+  fill: #FBF5F3;
 }
 
 .footer__copyright {

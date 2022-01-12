@@ -8,6 +8,9 @@
     margin: 0 auto;
     margin-top: 2vh;
     border-bottom: solid 1px $black;
+    &__logo{
+        width: 104px;
+    }
 }
 .menu {
     display: flex;
@@ -32,9 +35,6 @@
         border-color: $black;
         height: 14px;
     }
-}
-.logo {
-    width: 104px;
 }
 .rightitems {
     width: 28vw;

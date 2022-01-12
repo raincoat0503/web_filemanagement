@@ -8,7 +8,10 @@
         <hr class="menu__split" noshade>
         <li class="menu__item">CONTACT</li>
     </ul>
-    <img src="../media/img/module/logo.png" alt="" class="logo">
+    <div class="header__logo">
+        <!-- logo -->
+        <?php include("./media/img/module/logo.php") ?>
+    </div>
     <div class="rightitems">
         <form class="search" action="http://www.google.co.jp/search" method="get">
             <input type="text" class="search__text">

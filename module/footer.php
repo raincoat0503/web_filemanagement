@@ -1,5 +1,8 @@
 <footer class="footer">
-    <img class="footer__logo" src="../media/img/module/logo.png"></img>
+    <div class="footer__logo">
+        <!-- logo -->
+        <?php include("./media/img/module/logo.php") ?>
+    </div>
     <div class="footer__menulist">
         <ul class="menulist">
             <li class="menulist__item"><a class="menulist__link" href="#">HOME</a></li>

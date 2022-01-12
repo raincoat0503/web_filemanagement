@@ -5,6 +5,7 @@
     @include mainFont(20px, 400, $white);
     &__logo{
         width: 10vw;
+        fill: $white;
     }
     &__copyright{
         font-size: 12px;
